@@ -1,0 +1,436 @@
+/* header, footer, body .agent-login, body .landing-pg {
+  display: none;
+} */
+
+body .tw-partner .tw-home .tw-banner {
+  background: url("../images/tw/banner-btm-bg-partner.png") center bottom no-repeat,
+    linear-gradient(to right, #fa7438 0%, #891d9b 100%);
+  /* min-height: calc(100vh - 70px); */
+  background-size: contain;
+}
+
+body .tw-partner .tw-home .tw-banner img {
+  margin-top: 16px;
+  height: 534px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  margin-bottom: 0px !important;
+  margin-left: 0px !important;
+  width: 100% !important;
+}
+
+body .tw-partner .tw-home .tw-banner img {
+  object-fit: contain;
+}
+
+body .tw-partner .tw-partner-sidebar {
+  background: linear-gradient(to bottom, #fa7438 0%, #891d9b 100%);
+  width: 15px;
+  height: 76%;
+  position: absolute;
+  left: 18px;
+}
+
+body .tw-partner .tw-home .tw-features {
+  margin-bottom: 92px;
+}
+
+body .tw-partner .tw-features-icons {
+  margin-top: 50px;
+}
+
+body .tw-partner .tw-features-details p,
+body .tw-partner .tw-features-details button {
+  margin-left: 40px;
+  line-height: 35px;
+  margin-bottom: 5px;
+  text-align: justify;
+}
+
+body .tw-partner .tw-sub-title {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+body .tw-partner .tw-home .tw-banner h2 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 55px;
+  margin-top: 74px;
+}
+
+body .tw-partner .tw-whoisit {
+  background-color: #E5E4E2;
+}
+
+body .tw-partner .tw-home .tw-whoisit {
+  text-align: center;
+  padding-top: 62px;
+}
+
+body .tw-partner .tw-home .tw-whoisit h2 {
+  padding: 0px;
+  margin: 0px 0px 24px 0px;
+  font-size: 40px;
+  color: #f18247;
+  font-weight: 600;
+}
+
+body .tw-partner .tw-home .tw-whoisit h3 {
+  padding: 0px;
+  margin: 0px 0px 12px 0px;
+  font-size: 20px;
+  color: #892b9c;
+  font-weight: bold;
+}
+
+body .tw-partner .tw-home .tw-whoisit h4 {
+  padding: 0px;
+  margin: 0px 0px 42px 0px;
+  font-size: 20px;
+  color: #892b9c;
+  font-weight: 400;
+}
+
+body .tw-partner .tw-home .tw-whoisit .tw-whoisit-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 48px 16px 28px 16px;
+  color: #6c6c6c;
+  text-align: center;
+  border-radius: 4px;
+  background: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+body .tw-partner .tw-home .tw-whoisit .tw-whoisit-box img {
+  margin-bottom: 34px;
+}
+
+body .tw-partner .tw-home .tw-whoisit .tw-whoisit-box p {
+  align-self: flex-start;
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+body .tw-partner .tw-home .tw-whoisit .btn {
+  background: linear-gradient(to right, #fa7438 0%, #891d9b 100%);
+  border-radius: 42px;
+  padding-left: 48px;
+  padding-right: 48px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 42px;
+  border: 0px none;
+  height: 52px;
+}
+
+body .tw-partner .tw-home .tw-whoisit .btn:hover {
+  background: linear-gradient(to right, #891d9b 0%, #fa7438 100%);
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}
+
+body .tw-partner .tw-home .tw-whoisit h2 {
+  margin: 0px 0px 60px 0px;
+  font-weight: bold;
+}
+
+body .tw-partner .tw-home .tw-whoisit .tw-whoisit-box img {
+  height: 110px;
+}
+
+body .tw-partner .tw-home .tw-allofthis .btn {
+  background: linear-gradient(to right, #fa7438 0%, #891d9b 100%);
+  border-radius: 42px;
+  padding-left: 48px;
+  padding-right: 48px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 42px;
+  border: 0px none;
+  height: 52px;
+}
+
+body .tw-partner .tw-public-pages .tw-allofthis {
+  background: url("../images/tw/Allofthis-bg.png") center center no-repeat;
+  text-align: center;
+  padding: 78px 0px 78px 0px;
+  background-size: cover;
+  color: #fff;
+}
+
+body .tw-partner .tw-public-pages .tw-allofthis h2 {
+  padding: 0px;
+  margin: 0px 0px 24px 0px;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+body .tw-partner .tw-public-pages .tw-allofthis h3 {
+  padding: 0px;
+  margin: 0px 0px 54px 0px;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+body .tw-partner .tw-public-pages .tw-allofthis h4 {
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+body .tw-partner .tw-public-pages .tw-allofthis h4 b {
+  font-weight: 900;
+  font-size: 52px;
+}
+
+body .tw-partner .allofthis-banner-overlay {
+  background: rgba(145, 0, 26, 0.4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+body .tw-partner .tw-allofthis h1 {
+  color: #000;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+body .tw-partner .tw-home .tw-howitworks {
+  background: url("../images/tw/howitworks-top-bg-partner.png") center top no-repeat,
+    linear-gradient(to right, #fa7438 0%, #891d9b 100%);
+  background-size: contain;
+  color: #fff;
+  text-align: center;
+  padding: 248px 0px 48px 0px;
+}
+
+body .tw-partner .tw-home .tw-howitworks h2 {
+  padding: 0px;
+  margin: 20px 0px 12px 475px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+body .tw-partner img.tw-howitworks-info-img {
+  width: 100%;
+  margin: 100px 0px;
+}
+
+body .tw-partner .tw-home .tw-howitworks .btn {
+  background: #fff;
+  border-radius: 42px;
+  padding-left: 48px;
+  padding-right: 48px;
+  color: #8c2d9a;
+  font-weight: 600;
+  font-size: 18px;
+  border: 0px none;
+  height: 52px;
+}
+
+body .tw-partner .tw-home .tw-howitworks .btn:hover {
+  background: #8c2d9a;
+  color: #fff;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}
+
+body .tw-partner .tw-public-pages .tw-aboutus {
+  background: url("../images/tw/Aboutus-bg.png") center center no-repeat;
+  text-align: center;
+  padding: 78px 0px 78px 0px;
+  background-size: cover;
+  color: #fff;
+}
+
+body .tw-partner .tw-public-pages .tw-aboutus h2 {
+  padding: 0px;
+  margin: 0px 0px 24px 0px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f18247;
+}
+
+body .tw-partner .tw-public-pages .tw-aboutus p {
+  color: #000;
+  font-size: 23px;
+}
+
+body .tw-partner .tw-public-pages .tw-aboutus h3 {
+  padding: 0px;
+  margin: 0px 0px 54px 0px;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+body .tw-partner .tw-public-pages .tw-aboutus h4 {
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+body .tw-partner .tw-public-pages .tw-aboutus h4 b {
+  font-weight: 900;
+  font-size: 52px;
+}
+
+body .tw-partner .tw-public-pages .tw-findus {
+  margin: 0px 0px 0px 0px;
+}
+
+body .tw-partner .tw-home .tw-howitworks {
+  padding: 106px 0px 48px 0px;
+}
+
+body .tw-partner .tw-home .tw-reasons {
+  padding-top: 62px;
+}
+
+body .tw-partner .tw-home .tw-reasons .tw-reasons-box {
+  width: 100%;
+  border: solid 1px lightgray;
+  padding: 30px 16px 16px 16px;
+  border-radius: 0px;
+  box-shadow: rgb(0 0 0 / 15%) 4.95px 4.95px 4.6px !important;
+}
+
+.tw-login-page .partner-signin-img:before {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+body .tw-partner .tw-home .tw-reasons .tw-reasons-box img {
+  margin-bottom: 15px;
+  width: 39% !important;
+}
+
+body .tw-partner .tw-home .tw-reasons .tw-reasons-box p {
+  font-size: 21px;
+  width: 100%;
+  align-items: center;
+  color: #6c6c6c;
+  align-self: flex-start;
+}
+
+@media (max-width: 768px) {
+  body .tw-partner .tw-home .tw-banner .tw-banner-video-btn {
+    display: none !important;
+  }
+
+  body .tw-partner .tw-home .tw-banner h2 {
+    margin: 20px 0px 8px 0px;
+  }
+
+  body .tw-partner .tw-home .tw-banner {
+    padding-bottom: 92px;
+  }
+
+  body .tw-partner .tw-home .tw-reasons {
+    padding-top: 62px !important;
+  }
+
+  body .tw-partner .tw-home .tw-howitworks .tw-howitworks-info-img-mobile img {
+    margin-left: -16px;
+    width: calc(112% - 16px);
+  }
+
+  body .tw-partner .tw-howitworks-info-img-mobile {
+    display: block !important;
+  }
+
+  body .tw-partner .tw-howitworks-info-img-web {
+    display: none !important;
+  }
+
+  body .tw-partner .tw-home .tw-features {
+    background-color: #fff;
+    padding-top: 48px;
+    margin-top: 0px !important;
+  }
+
+  body .tw-partner .tw-home .tw-features .tw-features-icons {
+    display: block !important;
+    margin-top: 0px;
+  }
+
+  body .tw-partner .tw-home .tw-features .tw-features-icons img {
+    width: 90% !important;
+    margin-bottom: 20px !important;
+    margin-top: 40px !important;
+  }
+
+  body .tw-partner .tw-home .tw-features .tw-features-box {
+    width: 85%;
+  }
+
+  body .tw-partner .tw-sub-title {
+    font-size: 28px !important;
+  }
+
+  body .tw-partner .tw-partner-sidebar {
+    display: none;
+  }
+
+  body .tw-partner .tw-features-details p,
+  body .tw-partner .tw-features-details button {
+    margin-left: 0px !important;
+  }
+
+  body .tw-partner .tw-home .tw-features {
+    margin-bottom: 48px !important;
+  }
+
+  body .tw-partner .tw-allofthis h1 {
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  body .tw-partner .tw-home .tw-reasons h2 {
+    font-size: 40px !important;
+    margin-top: 50px;
+  }
+
+  body .tw-partner .tw-home .tw-reasons .tw-reasons-box p {
+    height: 75px;
+  }
+
+  body .tw-partner .tw-home .tw-reasons {
+    padding-top: 0px !important;
+    margin-bottom: -76px;
+  }
+
+  body .tw-partner .tw-home .tw-howitworks {
+    padding-bottom: 45px !important;
+  }
+
+  body .tw-partner .tw-public-pages .tw-aboutus {
+    padding: 60px 0px 60px 0px;
+  }
+
+  .tw-home .tw-howitworks {
+    padding: 92px 0px 16px 0px !important;
+  }
+
+  body .tw-partner .tw-home .tw-howitworks h2 {
+    margin: 0 0 0px 0px;
+  }
+}

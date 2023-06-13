@@ -1,0 +1,38 @@
+.slide-container {
+  margin: auto;
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-size: cover; */
+  height: 110px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+.each-fade {
+  display: flex;
+}
+
+.each-fade .image-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.each-fade .image-container img {
+  width: 100%;
+}
+
+.react-slideshow-container + div.indicators {
+  position: relative;
+  margin-top: -20px;
+}
